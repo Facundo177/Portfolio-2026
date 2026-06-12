@@ -1,4 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 export const AboutSection = () => {
 
@@ -29,7 +30,10 @@ export const AboutSection = () => {
               <a href="#contact" className="cosmic-button">
                 Contactame
               </a>
-              <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+              <a href="" className={cn("px-6 py-2 rounded-full border border-primary text-primary",
+                "hover:bg-primary/10 transition-all duration-300",
+                "hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95"
+              )}>
                 Descarga mi CV
               </a>
             </div>
