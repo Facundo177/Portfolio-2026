@@ -15,6 +15,7 @@ export const StarBackground = () => {
     window.addEventListener('resize', handleRezise);
 
     return () => window.removeEventListener('resize', handleRezise);
+    // para evitar memory leaks
   }, []);
 
 
