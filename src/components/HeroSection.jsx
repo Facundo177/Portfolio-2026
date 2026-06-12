@@ -16,7 +16,7 @@ export const HeroSection = () => {
             <span className="text-gradient opacity-0 animate-fade-in-delay-2">Gaitán</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam assumenda velit obcaecati, a ad molestiae voluptatibus id et? Exercitationem iste unde obcaecati quaerat, nesciunt aliquam eos quos dolores explicabo maxime!
           </p>
 

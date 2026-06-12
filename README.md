@@ -29,3 +29,7 @@ class-variance-authority
 clsx
 
 Para las rutas a la hora de importar, creo un alias "@" dentro del vite.config.js
+
+
+
+Faltan definir algunas clases: text-muted-foreground, text-gradient, bg-secondary, etc.
