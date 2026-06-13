@@ -9,6 +9,8 @@
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
 
+  --color-secondary: hsl(var(--secondary));
+
   --color-card: hsl(var(--card));
 
 
@@ -80,6 +82,8 @@
     --primary: 250 47% 60%;
     --primary-foreground: 210 40% 98%;
 
+    --secondary: 256, 42%, 70%;
+
     --border: 214 32% 91%;
   }
 
@@ -91,6 +95,8 @@
 
     --primary: 250 65% 65%;
     --primary-foreground: 213 31% 91%;
+
+    --secondary: 256, 42%, 20%;
 
     --border: 217 33% 20%;
   }
@@ -138,6 +144,18 @@
   text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
 }
 
+@utility text-gradient {
+  background: linear-gradient(to right, hsl(var(--primary)), hsl(var(--foreground)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@utility text-gradient-rev {
+  background: linear-gradient(to left, hsl(var(--primary)), hsl(var(--foreground)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @utility card-hover {
   @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
 }
@@ -171,4 +189,10 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
+}
+
+
+
+.a {
+  background-color: #7969c9;
 }
