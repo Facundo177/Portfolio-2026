@@ -33,5 +33,6 @@ Para las rutas a la hora de importar, creo un alias "@" dentro del vite.config.j
 
 Faltan definir algunas clases: text-muted-foreground, etc.
 Corregir icono de cambio de theme, desaparece en Mobile. Ponerlo abajo a la derecha.
+Debería poner los botones del Sobre Mi como w-fit mx-auto ?
 
 En la seccion Skills debería hacer que cada skill pueda tener más de una categoría, no hacer solo backend y frontend puro. O separar lenguajes, Frameworks, librerías, etc.

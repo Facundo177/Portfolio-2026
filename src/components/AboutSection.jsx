@@ -27,13 +27,18 @@ export const AboutSection = () => {
               Soy un apasionado de la tecnología, aprendiendo constantemente cosas nuevas tanto en la Universidad como por mi propia cuenta.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
+              <a
+                href="#contact"
+                className="cosmic-button" // w-fit mx-auto (?)
+              >
                 Contactame
               </a>
-              <a href="" className={cn("px-6 py-2 rounded-full border border-primary text-primary",
-                "hover:bg-primary/10 transition-all duration-300",
-                "hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95"
-              )}>
+              <a
+                href=""
+                className={cn("px-6 py-2 rounded-full border border-primary text-primary",
+                  "hover:bg-primary/10 transition-all duration-300",
+                  "hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95"
+                )}>
                 Descarga mi CV
               </a>
             </div>
