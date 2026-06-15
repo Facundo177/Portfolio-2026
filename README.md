@@ -34,5 +34,17 @@ Para las rutas a la hora de importar, creo un alias "@" dentro del vite.config.j
 Faltan definir algunas clases: text-muted-foreground, etc.
 Corregir icono de cambio de theme, desaparece en Mobile. Ponerlo abajo a la derecha.
 Debería poner los botones del Sobre Mi como w-fit mx-auto ?
+La información de contacto no me convence, debería hacer mini tarjetas con los links y logos y hacer un flex, o mejor grid.
+Addemás el formulario de contacto no creo que lo use.
 
 En la seccion Skills debería hacer que cada skill pueda tener más de una categoría, no hacer solo backend y frontend puro. O separar lenguajes, Frameworks, librerías, etc.
+
+Falta poner el link a mi Linkedin
+
+Hacer un fondo animado para el tema claro también
+
+Completar con mis proyectos
+
+Debería traer los proyectos y skills de un Google Sheets? Hay una forma de consumir la api
+
+debería retocar un poco la paleta de colores o poner separadores de secciones?
