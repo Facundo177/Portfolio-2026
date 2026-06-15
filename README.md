@@ -48,3 +48,5 @@ Completar con mis proyectos
 Debería traer los proyectos y skills de un Google Sheets? Hay una forma de consumir la api
 
 debería retocar un poco la paleta de colores o poner separadores de secciones?
+
+Completar la página de error 404
