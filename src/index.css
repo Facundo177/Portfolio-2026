@@ -207,3 +207,260 @@
 .a {
   background-color: #7969c9;
 }
+
+
+
+
+
+
+
+
+
+
+/* Estilos del fondo con circulos */
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.circles-background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: var(--background);
+    overflow: hidden;
+}
+
+.circles-background span {
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 20vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 45;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.circles-background span:nth-child(0) {
+    color: #FFACAC;
+    top: 39%;
+    left: 65%;
+    animation-duration: 50s;
+    animation-delay: -41s;
+    transform-origin: 11vw 1vh;
+    box-shadow: -40vmin 0 5.035239565255398vmin currentColor;
+}
+.circles-background span:nth-child(1) {
+    color: #E45A84;
+    top: 24%;
+    left: 39%;
+    animation-duration: 50s;
+    animation-delay: -18s;
+    transform-origin: -24vw -15vh;
+    box-shadow: 40vmin 0 5.229510733367409vmin currentColor;
+}
+.circles-background span:nth-child(2) {
+    color: #583C87;
+    top: 92%;
+    left: 15%;
+    animation-duration: 43s;
+    animation-delay: -2s;
+    transform-origin: -16vw -18vh;
+    box-shadow: -40vmin 0 5.830008339388346vmin currentColor;
+}
+.circles-background span:nth-child(3) {
+    color: #583C87;
+    top: 67%;
+    left: 97%;
+    animation-duration: 21s;
+    animation-delay: -12s;
+    transform-origin: -19vw -5vh;
+    box-shadow: 40vmin 0 5.1106888210312125vmin currentColor;
+}
+.circles-background span:nth-child(4) {
+    color: #E45A84;
+    top: 53%;
+    left: 83%;
+    animation-duration: 24s;
+    animation-delay: -6s;
+    transform-origin: 8vw 14vh;
+    box-shadow: -40vmin 0 5.5822833517977175vmin currentColor;
+}
+.circles-background span:nth-child(5) {
+    color: #583C87;
+    top: 9%;
+    left: 87%;
+    animation-duration: 13s;
+    animation-delay: -39s;
+    transform-origin: -16vw -12vh;
+    box-shadow: -40vmin 0 5.475812034660707vmin currentColor;
+}
+.circles-background span:nth-child(6) {
+    color: #E45A84;
+    top: 39%;
+    left: 89%;
+    animation-duration: 21s;
+    animation-delay: -25s;
+    transform-origin: -19vw 7vh;
+    box-shadow: 40vmin 0 5.923484241474296vmin currentColor;
+}
+.circles-background span:nth-child(7) {
+    color: #E45A84;
+    top: 79%;
+    left: 59%;
+    animation-duration: 17s;
+    animation-delay: -5s;
+    transform-origin: -12vw -22vh;
+    box-shadow: -40vmin 0 5.813294357980665vmin currentColor;
+}
+.circles-background span:nth-child(8) {
+    color: #583C87;
+    top: 48%;
+    left: 92%;
+    animation-duration: 44s;
+    animation-delay: -27s;
+    transform-origin: -6vw 22vh;
+    box-shadow: 40vmin 0 5.409894829213648vmin currentColor;
+}
+.circles-background span:nth-child(9) {
+    color: #E45A84;
+    top: 56%;
+    left: 68%;
+    animation-duration: 17s;
+    animation-delay: -37s;
+    transform-origin: -21vw 7vh;
+    box-shadow: -40vmin 0 5.289207831131353vmin currentColor;
+}
+.circles-background span:nth-child(10) {
+    color: #E45A84;
+    top: 11%;
+    left: 80%;
+    animation-duration: 39s;
+    animation-delay: -19s;
+    transform-origin: 21vw 23vh;
+    box-shadow: 40vmin 0 5.746933586470843vmin currentColor;
+}
+.circles-background span:nth-child(11) {
+    color: #583C87;
+    top: 1%;
+    left: 9%;
+    animation-duration: 6s;
+    animation-delay: -34s;
+    transform-origin: -21vw 20vh;
+    box-shadow: -40vmin 0 5.002256570536028vmin currentColor;
+}
+.circles-background span:nth-child(12) {
+    color: #E45A84;
+    top: 58%;
+    left: 22%;
+    animation-duration: 33s;
+    animation-delay: -21s;
+    transform-origin: 23vw 20vh;
+    box-shadow: 40vmin 0 5.603883344272002vmin currentColor;
+}
+.circles-background span:nth-child(13) {
+    color: #583C87;
+    top: 62%;
+    left: 73%;
+    animation-duration: 30s;
+    animation-delay: -32s;
+    transform-origin: -23vw 10vh;
+    box-shadow: 40vmin 0 5.129006865668943vmin currentColor;
+}
+.circles-background span:nth-child(14) {
+    color: #E45A84;
+    top: 37%;
+    left: 80%;
+    animation-duration: 36s;
+    animation-delay: -50s;
+    transform-origin: -11vw 14vh;
+    box-shadow: -40vmin 0 5.564210924067516vmin currentColor;
+}
+.circles-background span:nth-child(15) {
+    color: #583C87;
+    top: 58%;
+    left: 1%;
+    animation-duration: 47s;
+    animation-delay: -17s;
+    transform-origin: -2vw 21vh;
+    box-shadow: 40vmin 0 5.935401282545818vmin currentColor;
+}
+.circles-background span:nth-child(16) {
+    color: #583C87;
+    top: 41%;
+    left: 93%;
+    animation-duration: 55s;
+    animation-delay: -39s;
+    transform-origin: -24vw -21vh;
+    box-shadow: -40vmin 0 5.70412259710557vmin currentColor;
+}
+.circles-background span:nth-child(17) {
+    color: #583C87;
+    top: 68%;
+    left: 1%;
+    animation-duration: 28s;
+    animation-delay: -31s;
+    transform-origin: 14vw -15vh;
+    box-shadow: 40vmin 0 5.497143405682291vmin currentColor;
+}
+.circles-background span:nth-child(18) {
+    color: #FFACAC;
+    top: 19%;
+    left: 66%;
+    animation-duration: 24s;
+    animation-delay: -23s;
+    transform-origin: 15vw -1vh;
+    box-shadow: -40vmin 0 5.020701825190462vmin currentColor;
+}
+.circles-background span:nth-child(19) {
+    color: #FFACAC;
+    top: 78%;
+    left: 91%;
+    animation-duration: 38s;
+    animation-delay: -23s;
+    transform-origin: 12vw -19vh;
+    box-shadow: -40vmin 0 5.8992567971789125vmin currentColor;
+}
+
+
+
+
+
+
+
+
+/* Estilos de fondo con gradiente cambiante */
+
+.gradient-background{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: var(--background);
+  overflow: hidden;
+  opacity: 0.25;
+
+  background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+  background-size: 400% 400%;
+
+  animation: moving-gradient 7.5s ease-in-out infinite;
+}
+
+@keyframes moving-gradient{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}

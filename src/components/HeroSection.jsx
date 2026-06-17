@@ -17,7 +17,10 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam assumenda velit obcaecati, a ad molestiae voluptatibus id et? Exercitationem iste unde obcaecati quaerat, nesciunt aliquam eos quos dolores explicabo maxime!
+            Desarrollador Web y estudiante de Ciencias de la Computación en la Universidad de Buenos Aires.
+            <br />
+            Conectando la teoría algorítmica con el código aplicado,
+            para crear soluciones simples y eficientes a problemas reales.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
