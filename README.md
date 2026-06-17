@@ -41,6 +41,7 @@ Addemás el formulario de contacto no creo que lo use.
 En la seccion Skills debería hacer que cada skill pueda tener más de una categoría, no hacer solo backend y frontend puro. O separar lenguajes, Frameworks, librerías, etc.
 
 Falta poner el link a mi Linkedin
+Además, hacer que cada item del contacto tenga redirección en todo el contenido y no solo en una línea de texto.
 
 Hacer un fondo animado para el tema claro también
 
@@ -50,6 +51,10 @@ Debería traer los proyectos y skills de un Google Sheets? Hay una forma de cons
 
 debería retocar un poco la paleta de colores o poner separadores de secciones?
 
-Completar la página de error 404
+Completar la página de error 404 y del CV
 
 Agregar una página que funcione como CV online, con un formato muy simple, estilo Harvard o los cvs profesionales que se usan comunmente.
+
+corregir footer para que la distancia del texto al botón de cambio de tema claro/oscuro y al botón de subir al hero section sea la misma
+
+el botón de theme toggle debería cambiar el mouse a la "manito" cuando se hace hover

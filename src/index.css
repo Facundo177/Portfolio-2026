@@ -190,7 +190,13 @@
 
 
 @utility item-contact-section {
-  @apply justify-center bg-card p-3 border rounded-full;
+  @apply justify-center bg-card/90 hover:bg-card hover:shadow-xs hover:shadow-secondary p-3 border rounded-full;
+}
+
+.item-contact-section:hover{
+  span{
+    color: hsl(var(--primary));
+  }
 }
 
 
