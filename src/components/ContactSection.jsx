@@ -71,7 +71,7 @@ export const ContactSection = () => {
           <div className="space-y-8">
 
             <div className="space-y-6">
-              <a href="#" target="_blank">
+              <a href="https://www.linkedin.com/in/facundo-gabriel-gaitan-segura" target="_blank">
                 <div className="item-contact-section">
                   <div className="flex items-start space-x-4">
                     <div className="p-3 rounded-full bg-primary/10">

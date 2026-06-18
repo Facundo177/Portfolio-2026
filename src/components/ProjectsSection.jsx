@@ -3,13 +3,78 @@ import { ArrowRight, ExternalLink, FolderCode } from "lucide-react";
 // poner fotos en la carpeta public/projects
 const projects = [
   {
-    id: 0,
-    title: "Proyecto de ejemplo",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nisi cupiditate eveniet tempora ratione distinctio, nostrum laudantium, fuga inventore aperiam harum, consequuntur reiciendis corrupti? Quisquam eius provident ipsum tempora cum.",
-    image: "/projects/example.png",
-    tags: ["React", "TailwindCSS"],
-    demoUrl: "#",
-    githubUrl: "#"
+    title: "TechStore",
+    description: "Proyecto final para el curso de FrontEnd de Talento Tech",
+    image: "/projects/proyecto-1.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    demoUrl: "https://facundo177.github.io/Proyecto-Talento-Tech/index.html",
+    githubUrl: "https://github.com/Facundo177/Proyecto-Talento-Tech"
+  },
+  {
+    title: "Estudio fotográfico FrontEnd",
+    description: "Proyecto final para el curso de Codo a Codo",
+    image: "/projects/proyecto-2.png",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    demoUrl: "https://facundo177.github.io/Grupo-1---CaC-JAVA---24104/index.html",
+    githubUrl: "https://github.com/Facundo177/Grupo-1---CaC-JAVA---24104"
+  },
+    {
+    title: "Estudio fotográfico BackEnd",
+    description: "Proyecto final para el curso de Codo a Codo",
+    image: "/projects/proyecto-2.png",
+    tags: ["Java"],
+    githubUrl: "https://github.com/Facundo177/Backend-JAVA-Grupo-1_CaC24104"
+  },
+  {
+    title: "Berretacoin",
+    description: "Proyecto final de la materia Algoritmos y Estructuras de Datos",
+    image: "/projects/proyecto-3.png",
+    tags: ["Java"],
+    githubUrl: "https://github.com/Facundo177/Berretacoin"
+  },
+  {
+    title: "Registro de deudas",
+    description: "Este trabajo se centra en la contabilidad de una vivienda con múltiples inquilinos. Se registra y almacena información sobre los gastos comunes realizados por los inquilinos en nombre de una o más personas. El objetivo es analizar la evolución de las deudas de cada persona con la vivienda a lo largo del tiempo mediante la lectura, reestructuración y representación gráfica de los datos. Toda información relevante se encuentra almacenada en un archivo de texto, en un formato específico.",
+    image: "/projects/proyecto-4.png",
+    tags: ["Python", "MatplotLib", "Numpy"],
+    githubUrl: "https://github.com/Facundo177/Registro-de-deudas"
+  },
+  {
+    title: "Conversor de Monedas",
+    description: "El Conversor de Moneda consulta una API para obtener el valor de cambio de divisas. El usuario puede elegir entre las opciones de conversión disponibles en el menú, o relizar una consulta manualmente si conoce el código de tres letras de la moneda que desea convertir.",
+    image: "/projects/proyecto-5.jpg",
+    tags: ["Java"],
+    githubUrl: "https://github.com/Facundo177/Conversor-de-Moneda__Challenge-ONE__BackEnd"
+  },
+  {
+    title: "Challenge Literatura",
+    description: "En Challenge Literatura tomamos el papel de un desarrollador back-end, creando una aplicación con conexión a una base de datos relacional. Se hacen consultas a una API para obtener datos de los libros y autores consultados. El usuario puede elegir entre las siete opciones disponibles en el menú o cerrar la aplicación. De dichas opciones, las primeras tres consultan a la API y guardan los datos en nuestra base de datos, mientras que las cuatro restantes traen los datos registrados mediante querys.",
+    image: "/projects/proyecto-6.png",
+    tags: ["Java", "Spring Boot", "PostgreSQL"],
+    githubUrl: "https://github.com/Facundo177/Challenge-Literalura__Spring-Boot"
+  },
+  {
+    title: "Foro Hub",
+    description: `Es una API REST creada usando Spring. Permite a los usuarios:
+    crear un nuevo tópico,
+    mostrar todos los tópicos creados,
+    mostrar un tópico específico,
+    actualizar un tópico y eliminar un tópico.
+    Es lo que normalmente conocemos como CRUD (CREATE, READ, UPDATE, DELETE).
+    Además se aplicaron otros temas relacionados, como
+    la implementación de una base de datos relacional para la persistencia de la información
+    y la incorporación de un servicio de autenticación/autorización para restringir el acceso a la información`,
+    image: "/projects/proyecto-7.png",
+    tags: ["Java", "Spring Boot", "Spring Security", "MySQL"],
+    githubUrl: "https://github.com/Facundo177/Challenge-Literalura__Spring-Boot"
+  },
+    {
+    title: "Encriptador de texto (Challenge Alura)",
+    description: "Proyecto entregado como reto para Alura LATAM",
+    image: "/projects/proyecto-8.png",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    demoUrl: "https://facundo177.github.io/Encriptador_de_texto_Challenge_Alura/",
+    githubUrl: "https://github.com/Facundo177/Encriptador_de_texto_Challenge_Alura"
   },
 ];
 
@@ -27,17 +92,19 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Estos son algunos de mis últimos proyectos. Realizados como proyectos de cursos, para la facultad o por iniciativa personal.
+          Estos son algunos de mis últimos proyectos.
+          Realizados como parte de algunos cursos,
+          para la facultad o por iniciativa personal.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, key) => (
             <div
               key={key}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex flex-col"
             >
 
-              <div className="h-48 overflow-hidden">
+              <div className="h-60 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -45,7 +112,7 @@ export const ProjectsSection = () => {
                 />
               </div>
 
-              <div className="p-6">
+              <div className="p-6 h-auto grow flex flex-col justify-between">
 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, key) => (
@@ -55,24 +122,28 @@ export const ProjectsSection = () => {
                   ))}
                 </div>
 
-                <h3 className="text-xl font-semibold mb-2">
-                  {project.title}
-                </h3>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {project.title}
+                  </h3>
 
-                <p className="text-muted-foreground text-sm mb-4">
-                  {project.description}
-                </p>
+                  <p className="text-muted-foreground text-sm mb-4">
+                    {project.description}
+                  </p>
+                </div>
 
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
 
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink />
-                    </a>
+                    {project.demoUrl &&
+                      <a
+                        href={project.demoUrl}
+                        target="_blank"
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <ExternalLink />
+                      </a>
+                    }
 
                     <a
                       href={project.githubUrl}

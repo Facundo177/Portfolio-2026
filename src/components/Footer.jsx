@@ -13,7 +13,7 @@ export const Footer = () => {
       <p className="text-sm text-muted-foreground">
         &copy; {new Date().getFullYear()} Facundo Gaitán. All rights reserved.
       </p>
-      <div></div>
+      <div className="h-6 w-6 m-2"></div>
     </footer>
   );
 };
