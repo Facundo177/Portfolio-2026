@@ -8,7 +8,6 @@ import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
 import { useState } from "react";
 import { StarBackground } from "@/components/backgrounds/StarBackground";
-import { CirclesBackground } from "@/components/backgrounds/CirclesBackground";
 import { GradientBackground } from "../components/backgrounds/GradientBackground";
 
 

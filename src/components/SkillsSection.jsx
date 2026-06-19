@@ -113,11 +113,11 @@ const skills = [
   },
 ];
 
-const generalCategories = ["language", "all", "frontend", "backend", "framework", "database", "container"];
+const generalCategories = ["all", "language", "frontend", "backend", "framework", "database", "container"];
 
 export const SkillsSection = () => {
 
-  const [activeCategory, setActiveCategory] = useState("all");
+  const [activeCategory, setActiveCategory] = useState("language");
   const filteredSkills = skills.filter((skill) => activeCategory === "all" || skill.categories.includes(activeCategory));
 
   return (

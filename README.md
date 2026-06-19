@@ -31,21 +31,16 @@ clsx
 Para las rutas a la hora de importar, creo un alias "@" dentro del vite.config.js
 
 
-Faltan definir algunas clases: text-muted-foreground, etc.
+
 
 Debería poner los botones del Sobre Mi como w-fit mx-auto ?
 
-La información de contacto no me convence, debería hacer mini tarjetas con los links y logos y hacer un flex, o mejor grid.
-Addemás el formulario de contacto no creo que lo use.
 
-En la seccion Skills debería hacer que cada skill pueda tener más de una categoría, no hacer solo backend y frontend puro. O separar lenguajes, Frameworks, librerías, etc.
-
-Falta poner el link a mi Linkedin
-Además, hacer que cada item del contacto tenga redirección en todo el contenido y no solo en una línea de texto.
 
 Hacer un fondo animado para el tema claro también
 
-Completar con mis proyectos
+Paleta de colores cálidos con amarillo, naranja, rojo, etc. para el tema claro
+
 
 Debería traer los proyectos y skills de un Google Sheets? Hay una forma de consumir la api
 
