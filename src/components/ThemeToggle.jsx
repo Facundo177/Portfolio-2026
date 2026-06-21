@@ -17,11 +17,30 @@ export const ThemeToggle = ({ isDarkMode, setIsDarkMode }) => {
 
   const toggleTheme = () => {
     if (isDarkMode) {
-      document.documentElement.classList.remove("dark");
+
+      // wrapping the theme change for a smooth transition
+      if (!document.startViewTransition) {
+        document.documentElement.classList.remove("dark");
+      } else {
+        document.startViewTransition(() => {
+          document.documentElement.classList.remove("dark");
+        });
+      }
+
       localStorage.setItem("theme", "light");
       setIsDarkMode(false);
-    } else {
-      document.documentElement.classList.add("dark");
+    }
+    else {
+
+      // wrapping the theme change for a smooth transition
+      if (!document.startViewTransition) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.startViewTransition(() => {
+          document.documentElement.classList.add("dark");
+        });
+      }
+
       localStorage.setItem("theme", "dark");
       setIsDarkMode(true);
     }

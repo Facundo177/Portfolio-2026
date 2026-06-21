@@ -18,7 +18,7 @@ const projects = [
     demoUrl: "https://facundo177.github.io/Grupo-1---CaC-JAVA---24104/index.html",
     githubUrl: "https://github.com/Facundo177/Grupo-1---CaC-JAVA---24104"
   },
-    {
+  {
     title: "Estudio fotográfico BackEnd",
     description: "Proyecto final para el curso de Codo a Codo",
     image: "/projects/proyecto-2.png",
@@ -68,7 +68,7 @@ const projects = [
     tags: ["Java", "Spring Boot", "Spring Security", "MySQL"],
     githubUrl: "https://github.com/Facundo177/Challenge-Literalura__Spring-Boot"
   },
-    {
+  {
     title: "Encriptador de texto (Challenge Alura)",
     description: "Proyecto entregado como reto para Alura LATAM",
     image: "/projects/proyecto-8.png",
@@ -116,7 +116,9 @@ export const ProjectsSection = () => {
 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, key) => (
-                    <span className="px-2 py-1 text-sm font-medium rounded-full border bg-secondary/30 text-foreground">
+                    <span key={key}
+                      className="px-2 py-1 text-sm font-medium rounded-full border bg-secondary/30 text-foreground"
+                    >
                       {tag}
                     </span>
                   ))}

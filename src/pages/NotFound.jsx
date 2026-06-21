@@ -18,7 +18,7 @@ export const NotFound = () => {
         <div className="space-y-6">
 
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in">404</span>
+            <span className="opacity-0 animate-fade-in">Error 404</span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">

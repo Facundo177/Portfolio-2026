@@ -53,3 +53,6 @@ Agregar una página que funcione como CV online, con un formato muy simple, esti
 corregir footer para que la distancia del texto al botón de cambio de tema claro/oscuro y al botón de subir al hero section sea la misma
 
 el botón de theme toggle debería cambiar el mouse a la "manito" cuando se hace hover
+
+agregar dentro de las skills una segunda seccion con certificados, como el Azure Fundamentals
+poner lo de azure en el cv

@@ -9,6 +9,7 @@ import { Footer } from "@/components/Footer";
 import { useState } from "react";
 import { StarBackground } from "@/components/backgrounds/StarBackground";
 import { GradientBackground } from "../components/backgrounds/GradientBackground";
+import { SunriseBackground } from "../components/backgrounds/SunriseBackground";
 
 
 export const Home = () => {
@@ -22,7 +23,8 @@ export const Home = () => {
     {/* Fondo animado */}
     {isDarkMode
         ? <StarBackground/>
-        : <GradientBackground/>
+        // : <GradientBackground/>
+        : <SunriseBackground/>
     }
 
 
